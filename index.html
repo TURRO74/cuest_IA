@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz con IA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz con IA</h1>
+        <p>Escribe un tema o texto para generar preguntas automáticamente.</p>
+    </header>
+    <main>
+        <section id="input-section">
+            <textarea id="input-text" placeholder="Escribe un tema o texto aquí..."></textarea>
+            <button id="generate-quiz">Generar Quiz</button>
+        </section>
+        <section id="quiz-section" style="display: none;">
+            <h2>Preguntas Generadas</h2>
+            <div id="quiz-container"></div>
+            <button id="submit-quiz" style="display: none;">Enviar Respuestas</button>
+        </section>
+        <section id="result-section" style="display: none;">
+            <h2>Resultados</h2>
+            <p id="result"></p>
+        </section>
+    </main>
+    <footer>
+        <p>Creado con IA</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
